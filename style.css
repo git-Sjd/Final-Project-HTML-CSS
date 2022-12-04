@@ -91,6 +91,30 @@ body{
     text-align: center;
     margin: none;
 }
+#social-account-top{
+    width: 60px;
+    height: 220px;
+    position:absolute;
+    top: 45%;
+    right:2%;
+    /* position:relative;
+    z-index: 1;
+    right: -94.5%;
+    top:-100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color:black;
+}
+#social-account-top>div>i{
+    cursor: pointer;
+    margin: 20px;
+    color: white;
+}
+#social-account-top>div:nth-child(1), #social-account-top>div:nth-child(2),#social-account-top>div:nth-child(3){
+    border-bottom: 1px solid white;
+}
 #bottom-box{
     margin-right: 2%;
     background-image:linear-gradient(186deg, #e47312, #ff6361);
@@ -377,6 +401,121 @@ body{
     border-bottom: 2px solid white;
 
 }
+#professonal-div{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 70px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#professonal-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7%;
+
+}
+#professonal-heading>div{
+    color: #919198;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+#professonal-post{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 3%;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+#professonal-post img{
+    width: 100%;
+    margin-bottom: 0%;   
+}
+.team-photo{
+    min-height: 300px;
+    background-position: 50% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#team-photo-1{
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg);
+}
+#team-photo-2{
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg);
+}
+#team-photo-3{
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg);
+}
+#team-photo-4{
+    background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg);
+}
+
+.team-name{
+    padding: 25px 56px 25px 30px;
+    background-color: white; 
+}
+.team-name h1{
+    color: balck;
+    font-weight: 900;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    font-size: 19px;
+    line-height: 26px;
+
+}
+.team-name p{
+    margin-bottom: 5px;
+    color: hsla(0, 1%, 71%, 0.7);
+    font-size: 17px;
+    line-height: 25px;
+}
+.social-account{
+    width: 60px;
+    height: 170px;
+    position:relative;
+    z-index: 1;
+    right: -77%;
+    bottom:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #e47312;
+}
+.social-account>div:nth-child(1){
+    border-bottom: 1px solid orange;
+}
+.social-account>div:nth-child(2){
+    border-bottom: 1px solid orange;
+}
+.social-account >div>i{
+    margin: 20px;
+    color: white;
+}
+#testimonial-div{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 70px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#testimonial-text{
+    width: 30%;
+}
+#testimonial-feedback{
+    width: 50%;
+}
+#testimonial-text>div>p{
+    margin-bottom: 10px;
+    font-family: Dosis, sans-serif;
+    color: #919197;
+    font-size: 17px;
+    line-height: 25px;
+}
 #news-div{
     width: 85%;
     margin-right: auto;
@@ -390,7 +529,7 @@ body{
     justify-content: space-between;
     margin-bottom: 7%;
 }
-#latest-news>div>h1{
+#latest-news>div>h1, #professonal-heading>div>h1, #testimonial-text>div>h1{
     margin-top: 0px;
     margin-bottom: 0px;
     color: black;
@@ -406,7 +545,10 @@ body{
     letter-spacing: 1px;
     font-weight: 600;
 }
-#view-blog-link:hover{
+#view-blog-link p{
+    padding-bottom: 5px;
+}
+#view-blog-link p:hover{
     cursor: pointer;
     border-bottom: 2px solid #e47336;
 }
