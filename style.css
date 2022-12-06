@@ -43,6 +43,10 @@ body{
 #menu div:nth-child(1){
     color: #e47336;
 }
+#menu>div:hover{
+    cursor: pointer;
+    color: #e47336;
+}
 
 #free-quote{
     width: 160px;
@@ -115,6 +119,7 @@ body{
     justify-content: space-between;
     text-align: center;
     background-color:black;
+    
 }
 #social-account-top>div>i{
     cursor: pointer;
@@ -843,4 +848,20 @@ footer{
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+@media (max-width:400px){
+
+    #services-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #services-offered{
+        
+        flex-direction: column;
+    }
+    #services-offered>div{
+        width: 70%;
+    }
 }
