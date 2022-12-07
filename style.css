@@ -924,6 +924,9 @@ footer{
         width: 100%;
         margin-top: 50px;
     }
+    #services-offered>div:nth-child(1){
+        margin-top: 0px;
+    }
 
     #who-we-are{
         flex-direction: column;
