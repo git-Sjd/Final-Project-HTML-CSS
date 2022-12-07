@@ -857,11 +857,63 @@ footer{
         flex-direction: column;
     }
 
-    #services-offered{
-        
+    #services-offered{      
         flex-direction: column;
     }
     #services-offered>div{
+        width: 70%;
+    }
+
+    #who-we-are{
+        flex-direction: column;
+    }
+    #who-we-are>div{
+        width: 70%;
+    }
+    #text-div>h1{
+        margin: 50px auto;
+        font-size: 30px;
+    }
+    #text-div>div{
+        width:60%
+    }
+    
+    #number-box{
+        flex-direction: column;
+    }
+    #number-box>div{
+        width: 70%;
+    }
+    #our-work-header{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #grid-div{
+        display: flex;
+        flex-direction: column;
+    }
+    #grid-div>div{
+        width: 70%;
+    }
+    #big-box{
+        width: 70%;
+        padding: 5px;
+        margin: 0px;
+    }
+    #big-box>h1{
+        font-size: 20px;
+        font-weight:600;
+    }
+    #big-box>div{
+        width: 70%;
+    }
+    #professonal-heading{
+        flex-direction: column;
+    }
+    #professonal-post{
+        flex-direction: column;
+    }
+    .team-name{
         width: 70%;
     }
 }
