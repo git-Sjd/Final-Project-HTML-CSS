@@ -851,38 +851,98 @@ footer{
 }
 
 @media (max-width:400px){
+    body{
+        margin: 2%;
+    }
+    #menu, #bottom-box, #free-quote{
+        display: none;
+    }
+    #social-account-top{
+        top:60%;
+    }
+    #logo{
+        position:relative;
+        
+    }
+    #text-box{
+        width:80%;   
+    }
+    #text-box h1{
+        font-size: 38px;
+        font-weight: 600;
+    }
+    #text-box>div{
+        width:50%
+    }
 
     #services-container{
         width: 100%;
         flex-direction: column;
+        justify-content:none;
+        margin: 2%;
+    }
+    #services-container a{
+        margin-top: 10px;
+    }
+    #services-container h1{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    #link{
+        margin-top: 0;
+        width:35%
+    }
+    #our-work{
+        margin: 0;
+    }
+    #our-work-header>div{
+        width: 100%;
+        flex-direction: column;
+        justify-content:none;
+        margin-top: 0;
+    }
+   
+    #our-work-header h1{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    #view-blog-link-3 p{
+        margin-top: 0;
+        width:35%
+    }
+    #grid-div{
+        margin-top: 15%;
+    }
+    #testimonial-text{
+        width: 90%;  
     }
 
     #services-offered{      
         flex-direction: column;
     }
     #services-offered>div{
-        width: 70%;
+        width: 100%;
     }
 
     #who-we-are{
         flex-direction: column;
     }
     #who-we-are>div{
-        width: 70%;
+        width: 100%;
     }
     #text-div>h1{
         margin: 50px auto;
         font-size: 30px;
     }
     #text-div>div{
-        width:60%
+        width:100%
     }
     
     #number-box{
         flex-direction: column;
     }
     #number-box>div{
-        width: 70%;
+        width: 100%;
     }
     #our-work-header{
         flex-direction: column;
@@ -893,10 +953,10 @@ footer{
         flex-direction: column;
     }
     #grid-div>div{
-        width: 70%;
+        width: 100%;
     }
     #big-box{
-        width: 70%;
+        width: 100%;
         padding: 5px;
         margin: 0px;
     }
@@ -905,15 +965,82 @@ footer{
         font-weight:600;
     }
     #big-box>div{
-        width: 70%;
+        width: 100%;
+    }
+    #professonal-div{
+        width: 100%;
+        padding: 5%;
     }
     #professonal-heading{
         flex-direction: column;
     }
     #professonal-post{
+        display: flex;
         flex-direction: column;
+        margin-bottom: 0;
+    }
+    .team-photo{
+        width:90%;
     }
     .team-name{
-        width: 70%;
+        width: 90%;
+        margin-bottom: 0;
     }
+    #testimonial-div{
+        width: 100%;
+        flex-direction: column;
+        justify-content:none;
+        margin-top: 2%;
+    }
+    #testimonial-feedback{
+        width: 100%;
+        flex-direction: column;
+    }
+    .testimonial-card{
+        padding: 0;
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .testimonial-column{
+        margin:0;
+        padding: 0;
+        display:flex;
+        flex-direction:column;
+        width: 90%;
+    }
+    #latest-news{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    #news-div{
+        width:90%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    #blog-post{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #all-company-logo{
+        flex-direction: column;
+        align-items: center;
+    }
+    #all-company-logo>div{
+        margin-top: 25px;
+    }
+    #all-company-logo>div>h1{
+        margin: 0;
+    }
+    #about-div{
+        margin: 2%;
+        flex-direction: column;
+        width: 100%;
+    }
+    #about-div>div{
+        width: 100%;
+        margin-top: 30px;
+    }
+
 }
