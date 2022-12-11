@@ -478,8 +478,8 @@ body{
     width: 60px;
     height: 170px;
     position:relative;
-    left: 205px;
-    top:265px;
+    left: 78%;
+    /* bottom:70%; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
